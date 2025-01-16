@@ -1,6 +1,6 @@
 [submodule "src/MOM6"]
 	path = src/MOM6
-	url = https://github.com/NOAA-GFDL/MOM6.git
+	url = https://github.com/ezaron/MOM6-examples-NOPP2022.git
 [submodule "src/SIS2"]
 	path = src/SIS2
 	url = https://github.com/NOAA-GFDL/SIS2.git
@@ -24,7 +24,7 @@
 	url = https://github.com/NOAA-GFDL/land_null.git
 [submodule "src/mkmf"]
 	path = src/mkmf
-	url = https://github.com/mom-ocean/mkmf.git
+	url = https://github.com/ezaron/mkmf-NOPP2022.git
 [submodule "tools/analysis/mpl-cmocean"]
 	path = tools/analysis/mpl-cmocean
 	url = https://github.com/matplotlib/cmocean.git
