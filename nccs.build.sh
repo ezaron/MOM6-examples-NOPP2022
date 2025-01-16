@@ -32,8 +32,8 @@ mkdir -p build/ocean_only
 cd build/ocean_only/
 if [ -n "${CLEAN}" ]; then
 rm -f path_names
-#../../src/mkmf/bin/list_paths -l ./ ../../src/MOM6/{config_src/infra/FMS1,config_src/memory/dynamic_symmetric,config_src/drivers/solo_driver,config_src/external,src/{*,*/*}}/
-../../src/mkmf/bin/list_paths -l ./ ../../src/MOM6-NOPP2022/{config_src/infra/FMS1,config_src/memory/dynamic_symmetric,config_src/drivers/solo_driver,config_src/external,src/{*,*/*}}/
+../../src/mkmf/bin/list_paths -l ./ ../../src/MOM6/{config_src/infra/FMS1,config_src/memory/dynamic_symmetric,config_src/drivers/solo_driver,config_src/external,src/{*,*/*}}/
+#../../src/mkmf/bin/list_paths -l ./ ../../src/MOM6-NOPP2022/{config_src/infra/FMS1,config_src/memory/dynamic_symmetric,config_src/drivers/solo_driver,config_src/external,src/{*,*/*}}/
 ../../src/mkmf/bin/mkmf -t ${TMPL} -o '-I../fms' -p MOM6 -l '-L../fms -lfms' path_names
 make clean
 fi
