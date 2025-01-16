@@ -5,13 +5,14 @@ export MYFLAGS="NETCDF=3"
 #export MYFLAGS="DEBUG=1" # My comments in the grid.F90 file are not displayed!
 
 #SRCDIR=~/MOM6-examples-flat
-SRCDIR=/home/ezaron/nobackup/MOM6-examples-gfdl
+SRCDIR=/home/ezaron/nobackup/MOM6-examples-NOPP2022
 #TMPL=../../src/mkmf/templates/cheyenne-intel.mk
 #TMPL=../../src/mkmf/templates/derecho-intel.mk
 #TMPL=../../src/mkmf/templates/derecho-intel.mk
 #TMPL=../../src/mkmf/templates/nccs-intel.mk ; source ~/MOM6-examples-flat/EDZ/env-scu15.sh
 #TMPL=../../src/mkmf/templates/nccs-intel.mk
-TMPL=../../src/mkmf/templates/nccs-scu17.mk  ; source ~/MOM6-examples-flat/EDZ/env-scu17.sh
+TMPL=../../src/mkmf/templates/nccs-scu17.mk
+source ${SRCDIR}/MOM6-examples-flat/EDZ/env-scu17.sh
 
 echo "CLEAN = ${CLEAN}"
 
