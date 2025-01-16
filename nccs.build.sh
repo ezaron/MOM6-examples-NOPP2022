@@ -20,10 +20,10 @@ if [ -n "${CLEAN}" ]; then
 cd ${SRCDIR}
 mkdir -p build/fms/
 cd build/fms/
-make clean
 rm -f path_names
 ../../src/mkmf/bin/list_paths -l ../../src/FMS
 ../../src/mkmf/bin/mkmf -t ${TMPL} -p libfms.a -c "-Duse_libMPI -Duse_netCDF" path_names
+make clean
 make ${MYFLAGS} libfms.a
 fi
 
@@ -31,11 +31,11 @@ cd ${SRCDIR}
 mkdir -p build/ocean_only
 cd build/ocean_only/
 if [ -n "${CLEAN}" ]; then
-make clean
 rm -f path_names
 #../../src/mkmf/bin/list_paths -l ./ ../../src/MOM6/{config_src/infra/FMS1,config_src/memory/dynamic_symmetric,config_src/drivers/solo_driver,config_src/external,src/{*,*/*}}/
 ../../src/mkmf/bin/list_paths -l ./ ../../src/MOM6-NOPP2022/{config_src/infra/FMS1,config_src/memory/dynamic_symmetric,config_src/drivers/solo_driver,config_src/external,src/{*,*/*}}/
 ../../src/mkmf/bin/mkmf -t ${TMPL} -o '-I../fms' -p MOM6 -l '-L../fms -lfms' path_names
+make clean
 fi
 make ${MYFLAGS} MOM6
 
