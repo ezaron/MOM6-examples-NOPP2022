@@ -1,6 +1,6 @@
 [submodule "src/MOM6"]
 	path = src/MOM6
-	url = https://github.com/ezaron/MOM6-examples-NOPP2022.git
+	url = https://github.com/ezaron/MOM6-NOPP2022.git
 [submodule "src/SIS2"]
 	path = src/SIS2
 	url = https://github.com/NOAA-GFDL/SIS2.git
