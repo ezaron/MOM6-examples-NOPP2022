@@ -1,0 +1,231 @@
+GLB0.08 41-layer
+1 1 1 0 0 0
+# SIS  ice   diagnostics files
+
+## output files
+#"ice_daily%4yr_%3dy",              1,   "days", 1,   "days", "time", 1, "days"
+#"ice_month%4yr_%2mo",              1, "months", 1,   "days", "time", 1, "months"
+#"ice_static",                     -1, "months", 1,   "days", "time"
+
+# MOM6 ocean diagnostics files
+"ocean_surf_hourly",               1,   "hours",1,   "hours","time",
+#"ocean_hourly",                    1,   "hours",1,   "hours","time",
+#"ocean_surf_daily%4yr_%3dy",      1,   "days", 1,   "days", "time", 1, "days"
+#"ocean_month%4yr_%2mo",            1, "months", 1,   "days", "time", 1, "months"
+#"ocean_month_z%4yr_%2mo",          1, "months", 1,   "days", "time", 1, "months"
+#"ocean_annual%4yr",               12, "months", 1,   "days", "time", 1, "years"
+#"ocean_annual_z%4yr",             12, "months", 1,   "days", "time", 1, "years"
+#"ocean_scalar_month%4yr_%2mo",     1, "months", 1,   "days", "time", 1, "months"
+#"ocean_scalar_annual%4yr",         1,  "years",   1,  "years", "time"
+#"ocean_static",                   -1, "months", 1,   "days", "time" # ocean_static is a protected name. Do not change this line.
+
+
+# Sections for CMIP6/OMIP
+#"ocean_Barents_opening%4yr_%3dy",         1, "days",   1, "days", "time"
+#"ocean_Bering_Strait%4yr_%3dy",           1, "days",   1, "days", "time"
+#"ocean_Davis_Strait%4yr_%3dy",            1, "days",   1, "days", "time"
+#"ocean_Windward_Passage%4yr_%3dy",        1, "days",   1, "days", "time"
+#"ocean_Denmark_Strait%4yr_%3dy",          1, "days",   1, "days", "time"
+#"ocean_Drake_Passage%4yr_%3dy",           1, "days",   1, "days", "time",1,"days"
+#"ocean_English_Channel%4yr_%3dy",         1, "days",   1, "days", "time"
+#"ocean_Faroe_Scotland%4yr_%3dy",          1, "days",   1, "days", "time"
+#"ocean_Florida_Bahamas%4yr_%3dy",         1, "days",   1, "days", "time",1,"days"
+#"ocean_Fram_Strait%4yr_%3dy",             1, "days",   1, "days", "time"
+#"ocean_Iceland_Faroe_V%4yr_%3dy",         1, "days",   1, "days", "time"
+#"ocean_Iceland_Faroe_U%4yr_%3dy",         1, "days",   1, "days", "time"
+#"ocean_Indonesian_Throughflow%4yr_%3dy",  1, "days",   1, "days", "time",1,"days"
+#"ocean_Mozambique_Channel%4yr_%3dy",      1, "days",   1, "days", "time"
+#"ocean_Pacific_undercurrent%4yr_%3dy",    1, "days",   1, "days", "time"
+#"ocean_Taiwan_Luzon%4yr_%3dy",            1, "days",   1, "days", "time"
+#"ocean_Agulhas_section%4yr_%3dy",         1, "days",   1, "days", "time"
+#"ocean_Gibraltar_Strait%4yr_%3dy",        1, "days",   1, "days", "time"
+#"ocean_Iceland_Norway%4yr_%3dy",          1, "days",   1, "days", "time"
+
+# Extra static geometry data beyond CMIP6/OMIP Table 2.1
+#"ocean_model", "areacello",   "areacello",   "ocean_static", "all", "none", "none", 2
+#"ocean_model", "Coriolis",    "Coriolis",    "ocean_static", "all", "none", "none", 2
+#"ocean_model", "geolon",      "geolon",      "ocean_static", "all", "none", "none", 2
+#"ocean_model", "geolat",      "geolat",      "ocean_static", "all", "none", "none", 2
+#"ocean_model", "geolon_c",    "geolon_c",    "ocean_static", "all", "none", "none", 2
+#"ocean_model", "geolat_c",    "geolat_c",    "ocean_static", "all", "none", "none", 2
+#"ocean_model", "geolon_u",    "geolon_u",    "ocean_static", "all", "none", "none", 2
+#"ocean_model", "geolat_u",    "geolat_u",    "ocean_static", "all", "none", "none", 2
+#"ocean_model", "geolon_v",    "geolon_v",    "ocean_static", "all", "none", "none", 2
+#"ocean_model", "geolat_v",    "geolat_v",    "ocean_static", "all", "none", "none", 2
+#"ocean_model", "wet",         "wet",         "ocean_static", "all", "none", "none", 2
+#"ocean_model", "wet_c",       "wet_c",       "ocean_static", "all", "none", "none", 2
+#"ocean_model", "wet_u",       "wet_u",       "ocean_static", "all", "none", "none", 2
+#"ocean_model", "wet_v",       "wet_v",       "ocean_static", "all", "none", "none", 2
+#"ocean_model", "dxt",         "dxt",         "ocean_static", "all", "none", "none", 2
+#"ocean_model", "dyt",         "dyt",         "ocean_static", "all", "none", "none", 2
+#"ocean_model", "dxCu",        "dxCu",        "ocean_static", "all", "none", "none", 2
+#"ocean_model", "dyCu",        "dyCu",        "ocean_static", "all", "none", "none", 2
+#"ocean_model", "dxCv",        "dxCv",        "ocean_static", "all", "none", "none", 2
+#"ocean_model", "dyCv",        "dyCv",        "ocean_static", "all", "none", "none", 2
+#"ocean_model", "areacello_cu","areacello_cu","ocean_static", "all", "none", "none", 2
+#"ocean_model", "areacello_cv","areacello_cv","ocean_static", "all", "none", "none", 2
+#"ocean_model", "areacello_bu","areacello_bu","ocean_static", "all", "none", "none", 2
+
+# Daily Mean Prognostic Ocean fields:
+#====================================
+## to be able to convert to archm and use HYCOM-tools afterwards
+#"ocean_model","SSH",         "SSH", "ocean_surf_daily%4yr_%3dy","all","mean","none",2
+#"ocean_model","hfds",        "Qnet","ocean_surf_daily%4yr_%3dy","all","mean","none",2
+#"ocean_model","wfo",         "PmE", "ocean_surf_daily%4yr_%3dy","all","mean","none",2
+#"ocean_model","ubt",         "ubt", "ocean_surf_daily%4yr_%3dy","all","mean","none",2
+#"ocean_model","vbt",         "vbt", "ocean_surf_daily%4yr_%3dy","all","mean","none",2
+#"ocean_model","pbo",         "pbt", "ocean_surf_daily%4yr_%3dy","all","mean","none",2
+#"ocean_model","col_height",  "hbt", "ocean_surf_daily%4yr_%3dy","all","mean","none",2
+
+#====================================
+"ocean_model","SSH","SSH","ocean_surf_hourly","all","none","none",2
+#"ocean_model","SSH_inst","SSH_inst","ocean_surf_hourly","all","none","none",2
+#"ocean_model","eta_bt","eta_bt","ocean_surf_hourly","all","none","none",2
+#"ocean_model","eta_st","eta_st","ocean_surf_hourly","all","none","none",2
+#"ocean_model","eta_cor","eta_cor","ocean_surf_hourly","all","none","none",2
+#"ocean_model","e","e","ocean_surf_hourly","all","none","none",2
+#"ocean_model","e_D","e_D","ocean_surf_hourly","all","none","none",2
+#"ocean_model","SST","SST","ocean_surf_hourly","all","none","none",2
+#"ocean_model","SSS","SSS","ocean_surf_hourly","all","none","none",2
+"ocean_model","SSU","SSU","ocean_surf_hourly","all","none","none",2
+"ocean_model","SSV","SSV","ocean_surf_hourly","all","none","none",2
+#"ocean_model","pso","ps","ocean_surf_hourly","all","none","none",2
+#"ocean_model","pbo","pb","ocean_surf_hourly","all","none","none",2
+#"ocean_model","cg1","cg1","ocean_surf_hourly","all","none","none",2
+"ocean_model","bsl","bsl","ocean_surf_hourly","all","none","none",2
+"ocean_model","bslx","bslx","ocean_surf_hourly","all","none","none",2
+"ocean_model","ubt" ,"ubt", "ocean_surf_hourly","all","none","none",2
+"ocean_model","vbt" ,"vbt", "ocean_surf_hourly","all","none","none",2
+#"ocean_model","bsp","bsp","ocean_surf_hourly","all","none","none",2
+#"ocean_model","rhoinsitu", "rho", "ocean_surf_hourly","all","none","none",2
+#"ocean_model","h",         "h", "ocean_surf_hourly","all","none","none",2
+#"ocean_model","zos",       "zos", "ocean_surf_hourly","all","none","none",2
+#"ocean_model","col_height", "col_height", "ocean_surf_hourly","all","none","none",2
+#"ocean_model","col_mass", "col_mass", "ocean_surf_hourly","all","none","none",2
+
+##"ocean_model","KPP_OBLdepth","oml", "ocean_daily%4yr_%3dy","all","mean","none",2
+#"ocean_model","KPP_Kv",      "KvK", "ocean_daily%4yr_%3dy","all","mean","none",2
+#"ocean_model","KPP_Kd_in",   "KdI", "ocean_daily%4yr_%3dy","all","mean","none",2
+#"ocean_model","Kd_heat",     "KdH", "ocean_daily%4yr_%3dy","all","mean","none",2
+#"ocean_model","Kd_salt",     "KdS", "ocean_daily%4yr_%3dy","all","mean","none",2
+#"ocean_model","Ahh",         "Ahh", "ocean_daily%4yr_%3dy","all","mean","none",2
+#"ocean_model","Khh",         "Khh", "ocean_daily%4yr_%3dy","all","mean","none",2
+
+# monthly means in original grid ans z coordinates
+#"ocean_model","u",           "u",   "ocean_month%4yr_%2mo","all","mean","none",2
+#"ocean_model","v",           "v",   "ocean_month%4yr_%2mo","all","mean","none",2
+#"ocean_model","KE",          "KE",  "ocean_month%4yr_%2mo","all","mean","none",2
+#"ocean_model","MEKE",          "MEKE",  "ocean_month%4yr_%2mo","all","mean","none",2
+#"ocean_model","h",           "h",   "ocean_month%4yr_%2mo","all","mean","none",2
+#"ocean_model","temp",        "potT","ocean_month%4yr_%2mo","all","mean","none",2
+#"ocean_model","salt",        "salt","ocean_month%4yr_%2mo","all","mean","none",2
+#"ocean_model","rhoinsitu",   "rho", "ocean_month%4yr_%2mo","all","mean","none",2
+#"ocean_model","SSH",         "SSH","ocean_month%4yr_%2mo","all","mean","none",2
+#"ocean_model","MLD_003",  "MLD_003","ocean_month%4yr_%2mo","all", "mean", "none",2 ## mixed layer depth 0.03kg/m3
+#"ocean_model","pbo",         "pbt", "ocean_month%4yr_%2mo","all","mean","none",2
+#"ocean_model","col_height",  "hbt", "ocean_month%4yr_%2mo","all","mean","none",2
+
+#"ocean_model", "T_adx_2d", "T_adx_2d", "ocean_month%4yr_%2mo", "all", "mean", "none",2 ## poleward heat transport NCAR mom6_tools
+#"ocean_model", "T_ady_2d", "T_ady_2d", "ocean_month%4yr_%2mo", "all", "mean", "none",2 ## poleward heat transport NCAR mom6_tools
+#"ocean_model", "S_adx_2d", "S_adx_2d", "ocean_month%4yr_%2mo", "all", "mean", "none",2 ## poleward freshwater transport
+#"ocean_model", "S_ady_2d", "S_ady_2d", "ocean_month%4yr_%2mo", "all", "mean", "none",2 ## ploeward freshwater trnasport
+
+#"ocean_model_z","u",           "u",   "ocean_month_z%4yr_%2mo","all","mean","none",2 ## KE,EKE at fixed levels
+#"ocean_model_z","v",           "v",   "ocean_month_z%4yr_%2mo","all","mean","none",2 ## KE,EKE at fixed levels
+#"ocean_model_z","usq",         "usq",   "ocean_month_z%4yr_%2mo","all","mean","none",2 ## KE,EKE at fixed levels
+#"ocean_model_z","vsq",         "vsq",   "ocean_month_z%4yr_%2mo","all","mean","none",2 ## KE,EKE at fixed levels
+#"ocean_model_z","KE",          "KE",  "ocean_month_z%4yr_%2mo","all","mean","none",2 ## KE,EKE at fixed levels
+#"ocean_model_z","temp",      "potT",  "ocean_month_z%4yr_%2mo","all","mean","none",2 ## drift z,t T
+#"ocean_model_z","salt",      "salt",  "ocean_month_z%4yr_%2mo","all","mean","none",2 ## drift z,t S
+#"ocean_model_z","umo",        "umo",  "ocean_month_z%4yr_%2mo","all","mean","none",2 ## MOC NCAR mom6_tools 
+#"ocean_model_z","vmo",        "vmo",  "ocean_month_z%4yr_%2mo","all","mean","none",2 ## MOC NCAR mom6_tools
+
+# annual means in original grid ans z coordinates
+#"ocean_model","u",           "u",   "ocean_annual%4yr","all","mean","none",2
+#"ocean_model","v",           "v",   "ocean_annual%4yr","all","mean","none",2
+#"ocean_model","KE",          "KE",  "ocean_annual%4yr","all","mean","none",2
+#"ocean_model","h",           "h",   "ocean_annual%4yr","all","mean","none",2
+#"ocean_model","temp",        "potT","ocean_annual%4yr","all","mean","none",2
+#"ocean_model","salt",        "salt","ocean_annual%4yr","all","mean","none",2
+#"ocean_model", "SSH",         "SSH","ocean_annual%4yr","all","mean","none",2
+#"ocean_model",  "T_adx_2d", "T_adx_2d", "ocean_annual%4yr", "all", "mean", "none",2
+#"ocean_model",  "T_ady_2d", "T_ady_2d", "ocean_annual%4yr", "all", "mean", "none",2
+#"ocean_model",  "S_adx_2d", "S_adx_2d", "ocean_annual%4yr", "all", "mean", "none",2
+#"ocean_model",  "S_ady_2d", "S_ady_2d", "ocean_annual%4yr", "all", "mean", "none",2
+#
+#"ocean_model_z","umo",        "umo",  "ocean_annual_z%4yr","all","mean","none",2
+#"ocean_model_z","vmo",        "vmo",  "ocean_annual_z%4yr","all","mean","none",2
+#
+## time series
+#"ocean_model", "thetaoga",   "thetaoga", "ocean_scalar_month%4yr_%2mo",  "all", "mean", "none",1  # global mean theta
+#"ocean_model",     "soga",       "soga", "ocean_scalar_month%4yr_%2mo",  "all", "mean", "none",1  # global mean salinity
+##"ocean_model",   "zostoga",      "zostoga", "ocean_month%4yr_%2mo",      "all", "mean", "none",2 # to be done offline
+#
+
+#================
+# ICE DIAGNOSTICS
+#================
+#"ice_model", "CELL_AREA",  "CELL_AREA",    "ice_static", "all", "none", "none", 2
+#"ice_model", "COSROT",     "COSROT",       "ice_static", "all", "none", "none", 2
+#"ice_model", "GEOLAT",     "GEOLAT",       "ice_static", "all", "none", "none", 2
+#"ice_model", "GEOLON",     "GEOLON",       "ice_static", "all", "none", "none", 2
+#"ice_model", "SINROT",     "SINROT",       "ice_static", "all", "none", "none", 2
+
+#"ice_model","siconc",   "sic", "ice_daily%4yr_%3dy","all","mean","none",2
+#"ice_model","sithick",  "sih", "ice_daily%4yr_%3dy","all","mean","none",2
+#"ice_model","sitemptop","sit", "ice_daily%4yr_%3dy","all","mean","none",2
+#"ice_model","siu",      "siu", "ice_daily%4yr_%3dy","all","mean","none",2
+#"ice_model","siv",      "siv", "ice_daily%4yr_%3dy","all","mean","none",2
+#"ice_model","FW_X",     "six", "ice_daily%4yr_%3dy","all","mean","none",2
+#"ice_model","FW_Y",     "siy", "ice_daily%4yr_%3dy","all","mean","none",2
+
+#"ice_model","siconc",   "sic", "ice_month%4yr_%2mo","all","mean","none",2
+#"ice_model","sithick",  "sih", "ice_month%4yr_%2mo","all","mean","none",2
+
+#================
+# Sections
+#================
+
+## Approximate section to capture flow through Drake Passage (north-south section)
+##"ocean_model_z", "volcello", "volcello", "ocean_Drake_Passage%4yr_%3dy",    "all", "mean", "-70. -70. -71. -54.5 -1 -1",2
+#"ocean_model_z", "thetao","thetao",  "ocean_Drake_Passage%4yr_%3dy",    "all", "mean", "-70. -70. -71. -54.5 -1 -1",2
+#"ocean_model_z", "so",   "so",       "ocean_Drake_Passage%4yr_%3dy",    "all", "mean", "-70. -70. -71. -54.5 -1 -1",2
+#"ocean_model_z", "umo",  "umo",      "ocean_Drake_Passage%4yr_%3dy",    "all", "mean", "-70. -70. -71. -54.5 -1 -1",2
+#"ocean_model_z", "uo",   "uo",       "ocean_Drake_Passage%4yr_%3dy",    "all", "mean", "-70. -70. -71. -54.5 -1 -1",2
+
+
+## Indonesian Throughflow (east-west section): settings in spirit of OMIP "bulk" transport calculation
+##"ocean_model_z", "volcello", "volcello", "ocean_Indonesian_Throughflow%4yr_%3dy",  "all", "mean", "-246.0 -220.0  -8.1 -8.1 -1 -1",2
+#"ocean_model_z", "thetao", "thetao", "ocean_Indonesian_Throughflow%4yr_%3dy",  "all", "mean", "-246.0 -220.0  -8.1 -8.1 -1 -1",2
+#"ocean_model_z", "so",   "so",       "ocean_Indonesian_Throughflow%4yr_%3dy",  "all", "mean", "-246.0 -220.0  -8.1 -8.1 -1 -1",2
+#"ocean_model_z", "vmo",  "vmo",      "ocean_Indonesian_Throughflow%4yr_%3dy",  "all", "mean", "-246.0 -220.0  -8.1 -8.1 -1 -1",2
+#"ocean_model_z", "vo",   "vo",       "ocean_Indonesian_Throughflow%4yr_%3dy",  "all", "mean", "-246.0 -220.0  -8.1 -8.1 -1 -1",2
+
+## Florida-Bahamas Strait (east-west section)
+##"ocean_model_z", "volcello", "volcello", "ocean_Florida_Bahamas%4yr_%3dy",  "all", "mean", "-80.5 -77.8  25. 25. -1 -1",2
+#"ocean_model_z", "thetao","thetao",  "ocean_Florida_Bahamas%4yr_%3dy",  "all", "mean", "-80.5 -77.8  25. 25. -1 -1",2
+#"ocean_model_z", "so",   "so",       "ocean_Florida_Bahamas%4yr_%3dy",  "all", "mean", "-80.5 -77.8  25. 25. -1 -1",2
+#"ocean_model_z", "vmo",  "vmo",      "ocean_Florida_Bahamas%4yr_%3dy",  "all", "mean", "-80.5 -77.8  25. 25. -1 -1",2
+#"ocean_model_z", "vo",   "vo",       "ocean_Florida_Bahamas%4yr_%3dy",  "all", "mean", "-80.5 -77.8  25. 25. -1 -1",2
+
+# -----------------------------------------------------------------------------------------
+# Monthly time series
+#"ocean_model", "ave_wfo",             "ave_wfo",            "ocean_scalar_month%4yr_%2mo",  "all", "mean",  "none",1  # global mean prcme
+# "ocean_model", "ave_evs",             "ave_evs",            "ocean_scalar_month%4yr_%2mo",  "all", "mean",  "none",1  # global mean evaporation
+# "ocean_model", "ave_hfsso",           "ave_hfsso",          "ocean_scalar_month%4yr_%2mo",  "all", "mean",  "none",1  # global mean sensible heat
+# "ocean_model", "ave_rsntds",          "ave_rsntds",         "ocean_scalar_month%4yr_%2mo",  "all", "mean",  "none",1  # global mean SW
+# "ocean_model", "ave_rlntds",          "ave_rlntds",         "ocean_scalar_month%4yr_%2mo",  "all", "mean",  "none",1  # global mean LW
+# "ocean_model", "ave_hflso",           "ave_hflso",          "ocean_scalar_month%4yr_%2mo",  "all", "mean",  "none",1  # global mean latent
+# "ocean_model", "ave_hfds",            "ave_hfds",           "ocean_scalar_month%4yr_%2mo",  "all", "mean",  "none",1  # global mean net heat surf
+# "ocean_model", "net_heat_coupler_ga", "net_heat_coupler_ga","ocean_scalar_month%4yr_%2mo",  "all", "mean",  "none",1  # global mean net heat coupl
+#"ocean_model", "LwLatSens_ga",        "LwLatSens_ga",       "ocean_scalar_month%4yr_%2mo",  "all", "mean",  "none",1  # global mean LW+lat+sens
+# "ocean_model", "ssh_ga",              "ssh_ga",             "ocean_scalar_month%4yr_%2mo",  "all", "mean",  "none",1  # global mean ssh
+# "ocean_model", "precip_ga",           "precip_ga",          "ocean_scalar_month%4yr_%2mo",  "all", "mean",  "none",1  # global mean precip
+
+# Hourly time series
+#"ocean_model","u",           "u",   "ocean_hourly","all","none","none",2
+#"ocean_model","v",           "v",   "ocean_hourly","all","none","none",2
+#"ocean_model","h",           "h",   "ocean_hourly","all","none","none",2
+#"ocean_model","rhoinsitu",   "rho", "ocean_hourly","all","none","none",2
+#"ocean_model","SSH",         "SSH", "ocean_hourly","all","none","none",2
+

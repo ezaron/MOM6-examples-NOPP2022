@@ -1,0 +1,9 @@
+! Blank file in which we can put "overrides" for parameters
+
+#override CHECK_BAD_SURFACE_VALS = False
+#override FATAL_UNUSED_PARAMS = False
+!#override VERBOSITY = 9
+!#override DEBUG = True
+
+!----
+!#override RESTORE_SALINITY = False

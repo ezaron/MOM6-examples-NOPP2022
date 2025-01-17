@@ -1,0 +1,31 @@
+! These parameters are for testing mask_tables in a non-FRE environment.
+! This file should not be used in production unless you really want to
+! use this layout.  IO_LAYOUT must be an integer divisor of LAYOUT.
+!
+!LAYOUT = 60,42
+!IO_LAYOUT = 10,6
+!MASKTABLE = "mask_table.685.60x42" ! 60*42-685  = 1835 PEs
+
+!LAYOUT = 60,60
+!MASKTABLE = "mask_table.1049.60x60" ! 60*60-1049 = 2551 PEs
+
+!LAYOUT = 50,36
+!MASKTABLE = "mask_table.484.50x36" ! 50*36-484 = 1316 PEs
+
+! Santha was using this:
+!LAYOUT = 52,50
+!IO_LAYOUT = 13,25
+!MASKTABLE = "mask_table.715.52x50" ! 52*50-715 = 1885 PEs
+
+! cheyenne GLBb0.08
+!LAYOUT = 40,36
+!IO_LAYOUT = 8,6
+!MASKTABLE = "mask_table.362.40x36"
+
+! cheyenne GLBc0.08
+!LAYOUT = 40,32
+!IO_LAYOUT = 8,8
+
+! discover GLBc0.08
+LAYOUT = 46,40
+IO_LAYOUT = 23,8
